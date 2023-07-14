@@ -12,6 +12,39 @@ body {
   line-height: 1.5;
 }
 
+button{
+  font-size: large; 
+}
+
+
+#datetime-picker {
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: bold;
+  font-size: large;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.value {
+  font-size: xx-large;
+}
+
+.label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 img {
   display: block;
   max-width: 100%;
